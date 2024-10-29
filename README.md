@@ -2,17 +2,17 @@
 Image processing involves manipulating digital images through algorithms, with applications in fields such as medical imaging, facial recognition, and computer vision. Techniques like blurring, edge detection, and transformations can help emphasize or isolate features within an image, making it easier to analyze or recognize patterns.
 
 ## Filters and Techniques
-### Gaussian Blur
+## Gaussian Blur
 Gaussian Blur is a low-pass filter that smooths an image by reducing noise and details. It uses a Gaussian function to calculate the transformation on pixel intensity, creating a blur effect. It is commonly used as a preprocessing step for edge detection.
 
-## Parameters:
-ksize: Size of the kernel (usually odd).
-sigmaX: Standard deviation in the X direction.
-2. Gabor Filter
+### Parameters:
+#### ksize: Size of the kernel (usually odd).
+#### sigmaX: Standard deviation in the X direction.
+## Gabor Filter
 The Gabor filter captures texture information in an image by applying a sinusoidal wave modulated by a Gaussian envelope. This filter is particularly useful for feature extraction and texture analysis, commonly used in image recognition.
 
-Parameters:
-ksize: Size of the kernel.
+## Parameters:
+#### ksize: Size of the kernel.
 sigma: Standard deviation of the Gaussian envelope.
 lambd: Wavelength of the sinusoidal component.
 gamma: Spatial aspect ratio.
