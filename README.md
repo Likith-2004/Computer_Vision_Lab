@@ -1,11 +1,11 @@
-Introduction to Image Processing
+# Introduction to Image Processing
 Image processing involves manipulating digital images through algorithms, with applications in fields such as medical imaging, facial recognition, and computer vision. Techniques like blurring, edge detection, and transformations can help emphasize or isolate features within an image, making it easier to analyze or recognize patterns.
 
-Filters and Techniques
-1. Gaussian Blur
+## Filters and Techniques
+### Gaussian Blur
 Gaussian Blur is a low-pass filter that smooths an image by reducing noise and details. It uses a Gaussian function to calculate the transformation on pixel intensity, creating a blur effect. It is commonly used as a preprocessing step for edge detection.
 
-Parameters:
+## Parameters:
 ksize: Size of the kernel (usually odd).
 sigmaX: Standard deviation in the X direction.
 2. Gabor Filter
