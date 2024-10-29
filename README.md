@@ -1,5 +1,7 @@
 # Introduction to Image Processing
 Image processing involves manipulating digital images through algorithms, with applications in fields such as medical imaging, facial recognition, and computer vision. Techniques like blurring, edge detection, and transformations can help emphasize or isolate features within an image, making it easier to analyze or recognize patterns.
+# Original image
+![M2](https://github.com/user-attachments/assets/c5bfcc8f-85cf-4cd4-8fc9-0b342c7bbd58)
 
 ## Filters and Techniques
 ## Gaussian Blur
@@ -13,14 +15,14 @@ The Gabor filter captures texture information in an image by applying a sinusoid
 
 ## Parameters:
 #### ksize: Size of the kernel.
-sigma: Standard deviation of the Gaussian envelope.
-lambd: Wavelength of the sinusoidal component.
-gamma: Spatial aspect ratio.
-theta: Orientation (angle) of the filter.
-3. Laplacian Edge Detection
+#### sigma: Standard deviation of the Gaussian envelope.
+#### lambd: Wavelength of the sinusoidal component.
+#### gamma: Spatial aspect ratio.
+#### theta: Orientation (angle) of the filter.
+## Laplacian Edge Detection
 The Laplacian filter is a high-pass filter used for edge detection by calculating the second derivative of the image intensity. It is particularly sensitive to regions with rapid intensity changes, helping to highlight edges.
 
-Parameters:
+### Parameters:
 ksize: Size of the filter kernel.
 4. Sobel Edge Detection
 Sobel Edge Detection calculates the gradient of the image intensity in both X and Y directions. It is often used to find the edges of objects in images by highlighting areas with high gradient magnitudes. The Sobel filter can be applied individually in X and Y directions and then combined to obtain the full edge map.
